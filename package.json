@@ -1,7 +1,7 @@
 {
   "name": "svg-to-png-browser",
   "version": "1.0.0",
-  "description": "Convert svg strings to png in the browser. High performance.",
+  "description": "Convert svg strings to png blob url in the browser.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
