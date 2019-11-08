@@ -1,0 +1,23 @@
+{
+  "name": "svg-to-png-browser",
+  "version": "1.0.0",
+  "description": "Convert svg strings to png in the browser. High performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlei523/svg-to-png-browser.git"
+  },
+  "keywords": [
+    "svg",
+    "png"
+  ],
+  "author": "Joe Lei https://twitter.com/josephlei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlei523/svg-to-png-browser/issues"
+  },
+  "homepage": "https://github.com/jlei523/svg-to-png-browser#readme"
+}
