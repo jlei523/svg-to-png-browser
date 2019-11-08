@@ -22,7 +22,7 @@ console.log(pngUrl); //blob:http://localhost:3000/b42f9ed8-4b6e-40d2-b7a7-5ab116
 
 ```
 
-###Convert an SVG to base64 PNG
+### Convert an SVG to base64 PNG
 
 ```
 const { svgToPngBase64 } = require("./index"); //function is async
