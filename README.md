@@ -1,6 +1,10 @@
 # svg-to-png-browser
 Converts an svg string to a png blob url in the browser
 
+#### Example usage
+
+[GetAvatars.app](https://getavatars.app/)
+
 ### Convert an SVG String to a PNG Blob URL inside the browser
 ```
 const { convertSVGToPNGUrl } = require("./index"); //function is async
