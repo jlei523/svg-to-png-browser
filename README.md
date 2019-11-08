@@ -1,7 +1,7 @@
 # svg-to-png-browser
 Converts an svg string to a png blob url in the browser
 
-#### Example usage
+### Example usage
 
 [GetAvatars.app](https://getavatars.app/)
 
