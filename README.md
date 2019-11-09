@@ -8,7 +8,7 @@ Async convert an svg string to a png blob url in the browser. Optimzied for Perf
 
 ### Convert an SVG String to a PNG Blob URL inside the browser
 
-```
+```javascript
 import { convertSVGToPNGUrl } from "svg-to-png-browser"; //function is async
 
 //usage
@@ -25,17 +25,15 @@ const pngUrl = await convertSVGToPNGUrl(`<svg width="18px" height="18px" viewBox
 </svg>`);
 
 console.log(pngUrl); //blob:http://localhost:3000/b42f9ed8-4b6e-40d2-b7a7-5ab11662e54f
-
 ```
 
 ### Convert an SVG to base64 PNG
 
-```
+```javascript
 import { svgToPngBase64 } from "svg-to-png-browser"; //function is async
 
 //usage
-const base64 = await svgToPngBase64(svgString)
+const base64 = await svgToPngBase64(svgString);
 
-console.log(base64)
-
+console.log(base64);
 ```
