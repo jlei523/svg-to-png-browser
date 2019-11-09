@@ -1,15 +1,15 @@
 # svg-to-png-browser
 
-Converts an svg string to a png blob url in the browser. Extra utility function to convert SVG to base64 png.
+Async convert an svg string to a png blob url in the browser. Optimzied for Performance. Extra utility function to convert SVG to base64 png.
 
-### Used in this app to convert SVGs to PNGs. 
+### Used by:
 
 [GetAvatars.app](https://getavatars.app/)
 
 ### Convert an SVG String to a PNG Blob URL inside the browser
 
 ```
-const { convertSVGToPNGUrl } = require("svg-to-png-browser"); //function is async
+import { convertSVGToPNGUrl } from "svg-to-png-browser"; //function is async
 
 //usage
 
@@ -31,7 +31,7 @@ console.log(pngUrl); //blob:http://localhost:3000/b42f9ed8-4b6e-40d2-b7a7-5ab116
 ### Convert an SVG to base64 PNG
 
 ```
-const { svgToPngBase64 } = require("svg-to-png-browser"); //function is async
+import { svgToPngBase64 } from "svg-to-png-browser"; //function is async
 
 //usage
 const base64 = await svgToPngBase64(svgString)
