@@ -1,8 +1,8 @@
 # svg-to-png-browser
 
-Converts an svg string to a png blob url in the browser
+Converts an svg string to a png blob url in the browser. Extra utility function to convert SVG to base64 png.
 
-### Example usage
+### Used in this app to convert SVGs to PNGs. 
 
 [GetAvatars.app](https://getavatars.app/)
 
